@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/pic"
+        android:icon="@drawable/rr"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -17,14 +17,20 @@
         <activity android:name=".TampilanGambar" />
         <activity android:name=".AutocompleteSederhana" />
         <activity android:name=".KotakDialog" />
-        <activity android:name=".Picker">
+        <activity android:name=".Picker" />
+        <activity android:name=".ceckBox" />
+        <activity android:name=".RadioButton" />
+        <activity android:name=".Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ceckBox"></activity>
+        <activity android:name=".Seleksi" />
+        <activity android:name=".Pertama" />
+        <activity android:name=".Kedua" />
+        <activity android:name=".playingAudio"></activity>
     </application>
 
 </manifest>

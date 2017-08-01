@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.test2.com.rafian.Home">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Linear Layout Sederhana"
+        android:id="@+id/LinearLayout">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Linear Layout Relative"
+        android:id="@+id/RelativeLayoutSederhana">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Linear Layout Table"
+        android:id="@+id/LayoutTable">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Menampilkan Gambar Android"
+        android:id="@+id/TampilanGambar">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Teks Autocomplete"
+        android:id="@+id/AutocompleteSederhana">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Kotak Dialog"
+        android:id="@+id/KotakDialog">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="CheckBox"
+        android:id="@+id/ceckBox">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Picker"
+        android:id="@+id/Picker">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Seleksi"
+        android:id="@+id/Seleksi">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Radio Button"
+        android:id="@+id/RadioButton">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Intens"
+        android:id="@+id/activity_pertama">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Musik"
+        android:id="@+id/activity_playing_audio">
+    </Button>
+
+</LinearLayout>
+</ScrollView>
