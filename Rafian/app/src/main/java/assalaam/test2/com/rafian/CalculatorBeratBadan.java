@@ -1,4 +1,4 @@
-package assalaam.calculator.id.calculatorberatbadan;
+package assalaam.test2.com.rafian;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class CalculatorBeratBadan extends AppCompatActivity {
 
     private float height;
     private float weight;
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_calculator_berat_badan);
 
         final Button Hitung = (Button) findViewById(R.id.hitung);
         final EditText height_value = (EditText) findViewById(R.id.height);

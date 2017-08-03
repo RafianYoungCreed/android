@@ -139,5 +139,15 @@ public class Home extends Activity {
 
             }
         });
+        Button cbb = (Button) findViewById(R.id.activity_calculator_berat_badan);
+        cbb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View CalculatorBeratBadan) {
+                Intent myIntent = new
+                        Intent(CalculatorBeratBadan.getContext(), CalculatorBeratBadan.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
     }
 }

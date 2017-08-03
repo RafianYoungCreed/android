@@ -88,6 +88,12 @@
         android:text="Musik"
         android:id="@+id/activity_playing_audio">
     </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Kalkulator Berat Badan"
+        android:id="@+id/activity_calculator_berat_badan">
+    </Button>
 
 </LinearLayout>
 </ScrollView>

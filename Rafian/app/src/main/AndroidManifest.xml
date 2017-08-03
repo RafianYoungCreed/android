@@ -31,7 +31,8 @@
         <activity android:name=".Pertama" />
         <activity android:name=".Kedua" />
         <activity android:name=".playingAudio" />
-        <activity android:name=".ServiceSederhana"></activity>
+        <activity android:name=".ServiceSederhana" />
+        <activity android:name=".CalculatorBeratBadan"></activity>
     </application>
 
 </manifest>
