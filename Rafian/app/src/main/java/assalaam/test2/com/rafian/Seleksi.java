@@ -18,7 +18,7 @@ public class Seleksi extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seleksi);
-        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, pilihan));
+        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_single_choice, pilihan));
         seleksi = (TextView) findViewById(R.id.yangDipilih);
     }
 

@@ -30,7 +30,8 @@
         <activity android:name=".Seleksi" />
         <activity android:name=".Pertama" />
         <activity android:name=".Kedua" />
-        <activity android:name=".playingAudio"></activity>
+        <activity android:name=".playingAudio" />
+        <activity android:name=".ServiceSederhana"></activity>
     </application>
 
 </manifest>
