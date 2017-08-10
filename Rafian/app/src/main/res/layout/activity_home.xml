@@ -94,6 +94,12 @@
         android:text="Kalkulator Berat Badan"
         android:id="@+id/activity_calculator_berat_badan">
     </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Webview"
+        android:id="@+id/activity_webview">
+    </Button>
 
 </LinearLayout>
 </ScrollView>

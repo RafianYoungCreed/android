@@ -13,8 +13,8 @@ public class Home extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        Button lls = (Button) findViewById(R.id.LinearLayout);
-        lls.setOnClickListener(new View.OnClickListener() {
+        Button ll = (Button) findViewById(R.id.LinearLayout);
+        ll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View LinearLayout) {
                 Intent myIntent = new
@@ -24,8 +24,8 @@ public class Home extends Activity {
             }
         });
 
-        Button llt = (Button) findViewById(R.id.RelativeLayoutSederhana);
-        llt.setOnClickListener(new View.OnClickListener() {
+        Button rls = (Button) findViewById(R.id.RelativeLayoutSederhana);
+        rls.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View RelativeLayoutSederhana) {
                 Intent myIntent = new
@@ -35,8 +35,8 @@ public class Home extends Activity {
             }
         });
 
-        Button uu = (Button) findViewById(R.id.LayoutTable);
-        uu.setOnClickListener(new View.OnClickListener() {
+        Button lt = (Button) findViewById(R.id.LayoutTable);
+        lt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View LayoutTable) {
                 Intent myIntent = new
@@ -46,8 +46,8 @@ public class Home extends Activity {
             }
         });
 
-        Button ga = (Button) findViewById(R.id.TampilanGambar);
-        ga.setOnClickListener(new View.OnClickListener() {
+        Button tg = (Button) findViewById(R.id.TampilanGambar);
+        tg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View TampilanGambar) {
                 Intent myIntent = new
@@ -57,8 +57,8 @@ public class Home extends Activity {
             }
         });
 
-        Button ta = (Button) findViewById(R.id.AutocompleteSederhana);
-        ta.setOnClickListener(new View.OnClickListener() {
+        Button acs = (Button) findViewById(R.id.AutocompleteSederhana);
+        acs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View AutocompleteSederhana) {
                 Intent myIntent = new
@@ -79,8 +79,8 @@ public class Home extends Activity {
             }
         });
 
-        Button aa = (Button) findViewById(R.id.ceckBox);
-        aa.setOnClickListener(new View.OnClickListener() {
+        Button cb = (Button) findViewById(R.id.ceckBox);
+        cb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View ceckBox) {
                 Intent myIntent = new
@@ -89,8 +89,8 @@ public class Home extends Activity {
 
             }
         });
-        Button bb = (Button) findViewById(R.id.Picker);
-        bb.setOnClickListener(new View.OnClickListener() {
+        Button p = (Button) findViewById(R.id.Picker);
+        p.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View Picker) {
                 Intent myIntent = new
@@ -99,8 +99,8 @@ public class Home extends Activity {
 
             }
         });
-        Button cc = (Button) findViewById(R.id.Seleksi);
-        cc.setOnClickListener(new View.OnClickListener() {
+        Button s = (Button) findViewById(R.id.Seleksi);
+        s.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View Seleksi) {
                 Intent myIntent = new
@@ -109,8 +109,8 @@ public class Home extends Activity {
 
             }
         });
-        Button dd = (Button) findViewById(R.id.RadioButton);
-        dd.setOnClickListener(new View.OnClickListener() {
+        Button rb = (Button) findViewById(R.id.RadioButton);
+        rb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View RadioButton) {
                 Intent myIntent = new
@@ -119,8 +119,8 @@ public class Home extends Activity {
 
             }
         });
-        Button ii = (Button) findViewById(R.id.activity_pertama);
-        ii.setOnClickListener(new View.OnClickListener() {
+        Button pe = (Button) findViewById(R.id.activity_pertama);
+        pe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View pertama) {
                 Intent myIntent = new
@@ -129,8 +129,8 @@ public class Home extends Activity {
 
             }
         });
-        Button qq = (Button) findViewById(R.id.activity_playing_audio);
-        qq.setOnClickListener(new View.OnClickListener() {
+        Button pa = (Button) findViewById(R.id.activity_playing_audio);
+        pa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View playingAudio) {
                 Intent myIntent = new
@@ -149,5 +149,16 @@ public class Home extends Activity {
 
             }
         });
+        Button wv = (Button) findViewById(R.id.activity_webview);
+        wv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View webview) {
+                Intent myIntent = new
+                        Intent(webview.getContext(), webview.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
     }
 }

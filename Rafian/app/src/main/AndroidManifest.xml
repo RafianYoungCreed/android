@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="assalaam.test2.com.rafian">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/rr"
@@ -9,9 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LinearLayout" />
-        <activity
-            android:name=".ClassKeDua"
-            android:label="@string/title_activity_class_ke_dua" />
+        <activity android:name=".ClassKeDua" />
         <activity android:name=".RelativeLayoutSederhana" />
         <activity android:name=".LayoutTable" />
         <activity android:name=".TampilanGambar" />
@@ -20,6 +20,13 @@
         <activity android:name=".Picker" />
         <activity android:name=".ceckBox" />
         <activity android:name=".RadioButton" />
+        <activity android:name=".Seleksi" />
+        <activity android:name=".Pertama" />
+        <activity android:name=".Kedua" />
+        <activity android:name=".playingAudio" />
+        <activity android:name=".ServiceSederhana" />
+        <activity android:name=".CalculatorBeratBadan" />
+        <activity android:name=".webview" />
         <activity android:name=".Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,12 +34,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Seleksi" />
-        <activity android:name=".Pertama" />
-        <activity android:name=".Kedua" />
-        <activity android:name=".playingAudio" />
-        <activity android:name=".ServiceSederhana" />
-        <activity android:name=".CalculatorBeratBadan"></activity>
     </application>
 
 </manifest>

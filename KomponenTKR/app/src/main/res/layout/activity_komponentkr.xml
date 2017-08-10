@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_komponentkr"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="assalaam.projetc.id.komponentkr.komponentkr">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="komponen tkr" />
+
+</RelativeLayout>
