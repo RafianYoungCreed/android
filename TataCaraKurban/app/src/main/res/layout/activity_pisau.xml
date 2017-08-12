@@ -30,9 +30,9 @@
         android:layout_height="150dp"
         app:srcCompat="@drawable/ps"
         android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp" />
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,9 +40,9 @@
         android:text="Pisau ini berfungsi untuk mengkuliti hewan qurban juga berfungsi untuk memisahkan daging dengan tulang dan memotong kecil-kecil daging qurban sebelum di bagikan kepada yang berhak menerimanya."
         android:textColor="#00008B"
         android:id="@+id/textView2"
-        android:layout_marginTop="92dp"
         android:textSize="20dip"
-        android:layout_below="@+id/textView"
+        android:layout_marginBottom="56dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

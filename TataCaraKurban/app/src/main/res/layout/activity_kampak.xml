@@ -13,15 +13,14 @@
     tools:context="assalaam.projetc.id.tatacarakurban.Kampak">
 
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kampak"
-        android:gravity="left"
-        android:id="@+id/textView"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:fontFamily="cursive"
+        android:text="Kampak ini berfungsi untuk memotong-motong ataupun mencincang tulang hewan kurban yang telah dipisahkan dari daginya."
         android:textColor="#00008B"
-        android:layout_alignParentTop="true"
+        android:id="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:textSize="20dip"
+        android:layout_below="@+id/imageView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -30,18 +29,25 @@
         android:layout_height="150dp"
         app:srcCompat="@drawable/kp"
         android:id="@+id/imageView"
+        android:layout_marginTop="69dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Kampak ini berfungsi untuk memotong-motong ataupun mencincang tulang hewan kurban yang telah dipisahkan dari daginya."
+        android:text="Kampak"
+        android:gravity="left"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:fontFamily="cursive"
         android:textColor="#00008B"
-        android:id="@+id/textView2"
-        android:layout_marginTop="138dp"
-        android:textSize="25dip"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:textSize="25dp"
+        android:layout_marginRight="127dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
 
 </RelativeLayout>
