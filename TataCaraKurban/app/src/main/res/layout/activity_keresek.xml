@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Keresek"
+        android:text="Kantong plastik"
         android:gravity="left"
         android:id="@+id/textView"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -42,7 +42,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kantong keresek ini berfungsi untuk membungkus dagi hewan kurban yang telah ditimbang untuk di bagikan kepada warga setempat yang membuthkan dan menurut hukum yang menyubangkan hewan kurban tidaklah diharuskan untuk menerima daging hewan yang dikurbankannya."
+            android:text="Kantong plastik ini berfungsi untuk membungkus dagi hewan kurban yang telah ditimbang untuk di bagikan kepada warga setempat yang membuthkan dan menurut hukum yang menyubangkan hewan kurban tidaklah diharuskan untuk menerima daging hewan yang dikurbankannya."
             android:textColor="#00008B"
             android:id="@+id/textView2"
             android:textSize="20dip"

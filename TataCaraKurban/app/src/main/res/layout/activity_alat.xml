@@ -83,7 +83,7 @@
             android:layout_marginTop="10dp" />
 
         <Button
-            android:text="keresek"
+            android:text="kantong plastik"
             android:layout_width="150px"
             android:layout_height="50px"
             android:id="@+id/keresek"
